@@ -1,0 +1,9 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+    expose:
+      - "8080"
+    environment:
+      SPRING_APPLICATION_NAME: bank-borrow-app
